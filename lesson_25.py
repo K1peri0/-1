@@ -1,7 +1,7 @@
 import telebot,random,os
 from dotenv import load_dotenv
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton
-
+# тестовое изменениеееее
 def create_enemy():
     list = ['walkers','people']
     name = random.choice(list)
